@@ -21,3 +21,5 @@ function generateFibonacci($length)
 
 // Example URL: /fibonacci/10
 // Output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+
+// Explanation: Iteration is preferred over recursion here due to better performance and avoidance of stack overflow issues with large sequences.
